@@ -51,82 +51,79 @@
             <button data-modal-open type="button" class="hero__button">Заказать услугу</button>
           </div>
         </div>
-
-
-        <div class="backdrop is-hidden" data-modal>
-          <div class="modal">
-            <form class="form js-speaker-form">
-              <div class="form-main-group">
-                <h2 class="form-main-group__title">Оставьте свои данные, мы вам перезвоним</h2>
-                <div class="form-main-group form-group">
-                  <label class="form-group__label for="name">Имя</label>
-                <div class="form-group__field">
-                  <input class="form-group__input" type="text" name="name" id="name">
-                <svg class="form-group__icon" width="18" height="18">
-                  <use href="./images/icons.svg#icon-name">
-                  </use>
-                </svg>
-                </div>
-                </div>
-        
-                <div class="form-main-group form-group">
-                  <label class="form-group__label" for="tel">Телефон</label>
-                <div class="form-group__field">
-                  <input class="form-group__input" type="tel" name="tel" id="tel">
-                  <svg class="form-group__icon" width="18" height="18">
-                    <use href="./images/icons.svg#icon-phone">
-                    </use>
-                  </svg>
-                </div>
-                </div>
-        
-                <div class="form-group form-group">
-                  <label class="form-group__label" for="mail">Почта</label>
-                <div class="form-group__field">
-                  <input class="form-group__input" type="email" name="mail" id="mail">
-                  <svg class="form-group__icon" width="18" height="18">
-                    <use href="./images/icons.svg#icon-mail">
-                    </use>
-                  </svg>
-                </div>
-          
-                </div>
-        
-                <div class="form-main-group form-group">
-                  <label class="form-group__label" for="comment">Комментарий</label>
-                <textarea class="form-group__textarea" name="comment" id="comment" rows="10" placeholder="Введите текст"></textarea>
-                </div>
-        
-
-                <label class="form-main-group form-privacy">
-                  <input class="form-privacy__checkbox" type="checkbox" name="privacy" value="privacy"/>
-                    <svg class="form-privacy__icon" width="16" height="15">
-                      <use href="./images/icons.svg#icon-check">
-                      </use>
-                    </svg>
-                  <span>
-                    <span>Соглашаюсь с рассылкой и принимаю</span>
-                    <span>
-                     <a class="form-privacy__text" href="">Условия договора</a>
-                    </span>
-                  </span>
-                </label>
-
-
-              </div>
-              <div class="form-main-group form-button">
-                <button class="form-button__sub" type="submit">Отправить</button>
-              </div>
-            </form>
-          <svg data-modal-close class="modal__icon" width="30" height="30">
-           <use href="./images/icons.svg#icon-close">
-          </use>
-        </svg>
-          </div>
-        </div>
-  
       </section>
 
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <form class="form js-speaker-form">
+            <div class="form-main-group">
+              <h2 class="form-main-group__title">Оставьте свои данные, мы вам перезвоним</h2>
+              <div class="form-main-group form-group">
+                <label class="form-group__label" for="name">Имя</label>
+              <div class="form-group__field">
+                <input class="form-group__input" type="text" name="name" id="name">
+              <svg class="form-group__icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-name">
+                </use>
+              </svg>
+              </div>
+              </div>
+      
+              <div class="form-main-group form-group">
+                <label class="form-group__label" for="tel">Телефон</label>
+              <div class="form-group__field">
+                <input class="form-group__input" type="tel" name="tel" id="tel">
+                <svg class="form-group__icon" width="18" height="18">
+                  <use href="./images/icons.svg#icon-phone">
+                  </use>
+                </svg>
+              </div>
+              </div>
+      
+              <div class="form-group form-group">
+                <label class="form-group__label" for="mail">Почта</label>
+              <div class="form-group__field">
+                <input class="form-group__input" type="email" name="mail" id="mail">
+                <svg class="form-group__icon" width="18" height="18">
+                  <use href="./images/icons.svg#icon-mail">
+                  </use>
+                </svg>
+              </div>
+        
+              </div>
+      
+              <div class="form-main-group form-group">
+                <label class="form-group__label" for="comment">Комментарий</label>
+              <textarea class="form-group__textarea" name="comment" id="comment" rows="10" placeholder="Введите текст"></textarea>
+              </div>
+      
+
+              <label class="form-main-group form-privacy">
+                <input class="form-privacy__checkbox" type="checkbox" name="privacy" value="privacy"/>
+                  <svg class="form-privacy__icon" width="16" height="15">
+                    <use href="./images/icons.svg#icon-check">
+                    </use>
+                  </svg>
+                <span>
+                  <span>Соглашаюсь с рассылкой и принимаю</span>
+                  <span>
+                   <a class="form-privacy__text" href="">Условия договора</a>
+                  </span>
+                </span>
+              </label>
+
+
+            </div>
+            <div class="form-main-group form-button">
+              <button class="form-button__sub" type="submit">Отправить</button>
+            </div>
+          </form>
+        <svg data-modal-close class="modal__icon" width="30" height="30">
+         <use href="./images/icons.svg#icon-close">
+        </use>
+      </svg>
+        </div>
+      </div>
     
       <!-- Преймущетсва -->
       <section class="section-work">
@@ -220,7 +217,7 @@
                 width="270"
                 height="260"
               />
-              <div class="section-team works">
+              <div class="section-teams works">
                 <h3 class="works__title">Игорь Демьяненко</h3>
               <p class="works__text">Product Designer</p>
               <ul class="works__group">
@@ -254,7 +251,7 @@
                 width="270"
                 height="260"
               />
-              <div class="section-team works">
+              <div class="section-teams works">
                 <h3 class="works__title">Ольга Репина</h3>
               <p class="works__text">Frontend Developer</p>
               <ul class="works__group">
@@ -288,7 +285,7 @@
                 width="270"
                 height="260"
               />
-              <div class="section-team works">
+              <div class="section-teams works">
                 <h3 class="works__title">Николай Тарасов</h3>
               <p class="works__text">Marketing</p>
               <ul class="works__group">
@@ -322,7 +319,7 @@
                 width="270"
                 height="260"
               />
-              <div class="section-team works">
+              <div class="section-teams works">
                 <h3 class="works__title">Михаил Ермаков</h3>
               <p class="works__text">UI Designer</p>
               <ul class="works__group">
